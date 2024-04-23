@@ -24,3 +24,6 @@ To run the Tudo web app locally, follow these steps:
      ```
 5. Start the development server: `npm run dev`
 6. Access the application at `http://localhost:3000` in your web browser.
+
+### Docker
+The official [tudo-web docker image](https://hub.docker.com/r/keshav562/tudo-web) `keshav562/tudo-web` is available on Docker Hub.
