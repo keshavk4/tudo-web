@@ -46,6 +46,7 @@ export default function ListPage(props: { user_id: string }) {
             },
             body: JSON.stringify({ user_id: props.user_id, task: taskToAdd })
         });
+        setTaskToAdd("");
         fetchTasks();
     }
 
